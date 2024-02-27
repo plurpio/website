@@ -1,0 +1,63 @@
+/* Colours */
+
+:root {
+  --text: #f4dafa;
+  --background: #16091a;
+  --primary: #d397e2;
+  --secondary: #741f8a;
+  --accent: #8837c0;
+}
+
+/* Font options */
+@import url('https://fonts.googleapis.com/css?family=Erica%20One:700|Itim:400');
+
+body {
+  font-family: 'Itim';
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Erica One';
+  font-weight: 700;
+}
+
+html {font-size: 100%;} /* 16px */
+
+h1 {font-size: 5.652rem; /* 90.4px */}
+
+h2 {font-size: 3.997rem; /* 64px */}
+
+h3 {font-size: 2.827rem; /* 45.28px */}
+
+h4 {font-size: 1.999rem; /* 32px */}
+
+h5 {font-size: 1.414rem; /* 22.56px */}
+
+small {font-size: 0.707rem; /* 11.36px */}
+
+body{
+  margin:40px auto;
+  max-width:650px;
+  line-height:1.6;
+  font-size:18px;
+  color: var(--text);
+  background-color: var(--background);
+  padding:0 10px;
+}
+
+img {
+  max-height: 40%;
+  max-width: 40%;
+  margin: auto;
+  display: block;
+}
+
+a {
+    color: var(--accent);
+    padding: 1px;
+}
+
+a:hover {
+    color: var(--background);
+    background-color: var(--accent);
+}
