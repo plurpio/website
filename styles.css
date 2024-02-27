@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Erica%20One:700|Itim:400');
 /* Colours */
 
 :root {
@@ -9,7 +10,6 @@
 }
 
 /* Font options */
-@import url('https://fonts.googleapis.com/css?family=Erica%20One:700|Itim:400');
 
 body {
   font-family: 'Itim';
